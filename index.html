@@ -4,5 +4,16 @@ title: High Gravitas
 ---
     		<div class="blurb">
         		<h1>High Gravitas</h1>
-				<p>We help startups with weighty and important things like go-to-market strategy, sales process and early product/market fit discovery.</p>
+				<p>High Gravitas provides advising, consulting and investment to high-growth enterprise software companies. Our focus is on generating winning go-to-market strategies, sales processes and marketing approaches to scale revenue from $0 to hyper growth.</p>
+				<br>
+				<p>High Gravitas is run by passionate startup operators and executives who love to enable new businesses to grow and flourish. If you're interested in learning more about how we help founders, [contact us](mailto:tim@highgravitas.com).
+				<br>
+				<h2>Latest Blog Post</h2>
+				<p>{% for post in site.posts limit:1 %}
+				... Show the first post all big ...
+				{% endfor %}
+				<h3>Recent Posts</h3>
+				{% for post in site.posts offset:1 limit:2 %}
+				... Show the next two posts ...
+				{% endfor %}
     		</div><!-- /.blurb -->
