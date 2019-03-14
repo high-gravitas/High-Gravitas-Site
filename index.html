@@ -9,11 +9,6 @@ title: High Gravitas
 				<p>High Gravitas is run by passionate startup operators and executives who love to enable new businesses to grow and flourish. If you're interested in learning more about how we help founders, [contact us](mailto:tim@highgravitas.com).
 				<br>
 				<h2>Latest Blog Post</h2>
-				<p>{% for post in site.posts limit:1 %}
-				... Show the first post all big ...
-				{% endfor %}
-				<h3>Recent Posts</h3>
-				{% for post in site.posts offset:1 limit:2 %}
-				... Show the next two posts ...
+				{% for post in site.posts offset:1 %}
 				{% endfor %}
     		</div><!-- /.blurb -->
