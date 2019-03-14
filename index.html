@@ -9,15 +9,6 @@ title: High Gravitas
 				<p>High Gravitas is run by passionate startup operators and executives who love to enable new businesses to grow and flourish. If you're interested in learning more about how we help founders, <a href="mailto:tim@highgravitas.com">contact us</a>.
 				<br>
 				<h2>Latest Blog Post</h2>
-				<ul class="entries">
-					{% for post in paginator.posts %}
-				<li>
-					<a href="{{ post.url }}">
-					<h3>{{ post.title }}</h3>
-					<p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
-					<div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
-					</a>
-				</li>
-			{% endfor %}
+				{{ site.posts.first }}
 		</ul>
     		</div><!-- /.blurb -->
