@@ -21,8 +21,7 @@ Here are a few things that probably need to happen in order for AirPods to gain 
 The AirPods form factor is pretty good, but it's not a great fit in-ear for every person and some people think they're aesthetically not great. Apple is typically pretty ruthless on refining and optimizing hardware design so the expectation is that this will change over time.
 
 <img src="/assets/images/allphones.jpg" alt="" style="width:500px;height:250px;">
-
-image from [iphonelife.com](https://www.iphonelife.com/content/evolution-iphone-every-model-2007-2016)
+<sup>image from iphonelife.com</sup>
 
 AirPods 2 will be shipping in April 2019 and the form factor will not see a major update. If you project a bit further out to AirPods 3 and 4, it's not crazy to imagine a more "in-ear" form factor that will lend itself to near-constant wear. Many AirPods users already keep theirs in for hours during the day. Assuming future versions of AirPods are close to unobtrusive, that number should only increase.
 
